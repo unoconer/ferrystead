@@ -16,11 +16,8 @@ Use this **after** the website is live and Search Console is verified.
   where the office is.
 - **Business type:** **Local store / storefront**: clients visit the office during the posted
   hours. Google requires a **complete, real street address that is staffed during those hours**.
-  The website currently shows **address and phone placeholders**. Fill in the real street
-  address (with suite or floor), ZIP and phone in `site.config.mjs` first.
-- **Address:** must match the website exactly. Use the borough name Google shows for the
-  address (for Manhattan, "New York, NY"; elsewhere it may be "Brooklyn, NY", etc.).
-- **Phone:** to be provided. Use a local number that is answered during business hours.
+- **Address:** **355 Lexington Ave, New York, NY 10017**, entered exactly as on the website. If the office has a suite or floor number, add it to both.
+- **Phone:** **(332) 900-3049**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.
 - **Primary category:** **Financial consultant**.
 - **Secondary category:** **Business administration service**.

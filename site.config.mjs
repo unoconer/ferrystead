@@ -28,8 +28,8 @@ export default {
     owner: null, // optional
     foundingYear: null,
 
-    phone: null, // [REQUIRED] e.g. '(212) 555-0100' — shows a placeholder until set
-    phoneE164: null, // e.g. '+12125550100'
+    phone: '(332) 900-3049',
+    phoneE164: '+13329003049',
     email: null, // optional — hidden until set; visitors use the contact form
 
     /**
@@ -40,10 +40,10 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // [REQUIRED] real, staffed office only — include suite/floor
+      streetAddress: '355 Lexington Ave', // real, staffed office — add suite/floor if any
       addressLocality: 'New York',
       addressRegion: 'NY',
-      postalCode: null, // [REQUIRED]
+      postalCode: '10017',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only

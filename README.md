@@ -8,7 +8,7 @@ to **Netlify** at `https://ferrystead.netlify.app`.
 
 ```bash
 node build.mjs          # builds ./dist; checks internal links; lists missing info
-STRICT=1 node build.mjs # pre-launch check (fails while placeholders remain)
+STRICT=1 node build.mjs # pre-launch check
 ```
 
 ## Deploy to Netlify
@@ -25,11 +25,11 @@ Services · How it works · Who does what · 401(k) basics · FAQ · About · Vi
 `/privacy-policy/`, `/terms/` and `/disclosures/` are separate pages under New York law
 plus `/thank-you/` and `404.html`.
 
-## Phone and office address (placeholders)
+## Office
 
-Ferrystead is set up as a **storefront office** (`locationType: 'office'`). Until
-`business.phone`, `business.address.streetAddress` and `postalCode` are filled in, the page shows
-yellow placeholder tags and outputs no phone, map or storefront schema.
+Ferrystead is a **storefront office** (`locationType: 'office'`) at **355 Lexington Ave, New York,
+NY 10017**, phone **(332) 900-3049**. The address shows in the hero card, footer and contact
+section, with a map and storefront structured data. Keep it identical to the Google Business Profile.
 
 ## Design
 
