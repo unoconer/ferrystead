@@ -15,7 +15,7 @@
 export default {
   site: {
     url: 'https://ferrystead.netlify.app', // no trailing slash
-    googleSiteVerification: null, // Search Console HTML-tag "content" value
+    googleSiteVerification: 'C-DTpje2C5fc5YSPkcoWISxFBW2GVSprf1n-xrgiKOg', // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
